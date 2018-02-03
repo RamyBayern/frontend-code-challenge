@@ -6,7 +6,6 @@ class CardItem extends Component {
     render() {
         return (
             <div className="col-md-4 col-sm-6 col-12 card-item">
-               
                 <CardImage imageUrls= {this.props.propertyDetails.imageUrls}></CardImage>
                <div className="all-card-deatils">
                <CardDetails

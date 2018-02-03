@@ -7,9 +7,8 @@ class CardImage extends Component {
     render() {
         console.log(this.props)
         var settings = {
-            dots: false,
+            dots: true,
             infinite: false,
-            arrow: false,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1
@@ -17,7 +16,7 @@ class CardImage extends Component {
         return (
             <Slider {...settings}>
                 {
-                    this.props.imageUrls.map(e => <img src={e} alt="" className="img-fluid" />)
+                    this.props.imageUrls.map(e => <img src={e} alt="realestateImage" className="img-fluid" />)
                 }
             </Slider>
         )

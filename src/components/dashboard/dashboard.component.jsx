@@ -25,7 +25,7 @@ class Dashboard extends Component {
             )
         }
         else{
-           return  <div className="loading"></div> 
+        return  (<div className="loading">loading////</div>) 
         }
     }
 }
