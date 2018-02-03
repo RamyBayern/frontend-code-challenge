@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 import CardItem from '../card-item/card-item.component';
-
 import { getPropertiesDetails } from '../../services/properties.service';
 
 class Dashboard extends Component {
     constructor() {
         super();
-        // this.setState({
-        //     elements: null
-        // })
         this.state = {
             elements :null
         }
@@ -16,9 +12,6 @@ class Dashboard extends Component {
             this.setState({
                 elements: res
             })
-            // this.render()
-            // this.elements = res
-            // console.log(this.elements)
         });
     }
     render() {
@@ -30,7 +23,8 @@ class Dashboard extends Component {
                     }
                 </div>
             )
-        }else{
+        }
+        else{
            return  <div className="loading"></div> 
         }
     }

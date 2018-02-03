@@ -17,7 +17,7 @@ class CardImage extends Component {
         return (
             <Slider {...settings}>
                 {
-                    this.props.imageUrls.map(e => <img src={e} alt="" />)
+                    this.props.imageUrls.map(e => <img src={e} alt="" className="img-fluid" />)
                 }
             </Slider>
         )
