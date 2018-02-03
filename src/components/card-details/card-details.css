@@ -1,0 +1,12 @@
+.card-details .description {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 0; }
+
+.card-details .mini-description {
+  color: #999;
+  font-weight: lighter;
+  margin: 10pt 0 20pt; }
+
+.card-details .rooms {
+  border-right: 1px solid #dedada; }
