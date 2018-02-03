@@ -4,7 +4,7 @@ class CardDetails extends Component {
     render() {
         return (
             <div className="card-details">
-                <div className="row">
+                <div className="row description-container">
                     <p className="col-12 description">{this.props.title} </p>
                     <p className="col-12 mini-description">
                         <span>{this.props.postalCode} </span>
@@ -13,14 +13,14 @@ class CardDetails extends Component {
                     </p>
                 </div>
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-4 col-sm-12 col-md-4">
                         <p className="price">{this.props.advertisementPrice} €</p>
                     </div>
-                    <div className="col-4 offset-2">
-                        <p className="rooms">{this.props.numberOfRooms}Zimmer</p>
+                    <div className="col-4 col-sm-7 col-md-4">
+                        <p className="rooms">{this.props.numberOfRooms} Zimmer</p>
                     </div>
-                    <div className="col-3">
-                        <p className="area">ab {this.props.space} m</p>
+                    <div className="col-4 col-sm-5 col-md-4">
+                        <p className="area">ab {this.props.space} m<sup>2</sup></p>
                     </div>
                 </div>
             </div>

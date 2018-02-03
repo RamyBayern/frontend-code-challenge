@@ -1,15 +1,17 @@
-.card-details{
-    .description{
-        font-size: 12pt;
-        font-weight: bold;
-      margin-bottom: 0;
-    }
-    .mini-description{
-        color:#999;
-        font-weight: lighter;
-        margin: 10pt 0 20pt;
-    }
-    .rooms{
-        border-right: 1px solid #dedada;
-    }
+
+.description{
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.mini-description{
+    color:#999;
+    font-weight: lighter;
+    margin: 10pt 0 20pt;
+}
+.price{
+    font-weight: bold;
+}
+.rooms{
+    border-right: 1px solid #dedada;
 }

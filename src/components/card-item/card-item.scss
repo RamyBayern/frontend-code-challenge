@@ -1,6 +1,19 @@
-.card-item{
-    border: 1px solid #dedada;
-}
-.all-card-deatils{
-    margin-top: 15pt;
+.full-card{
+    a.rent-btn {
+        position: absolute;
+        top: 12pt;
+        left: 22pt;
+        z-index: 2;
+        cursor: pointer;
+        text-transform: capitalize;
+        background: #fff;
+        color: rgb(218, 214, 214) !important;
+        padding: 4pt 7pt;
+        border-radius: 2pt;
+        box-shadow: 3px 3px 10px #949494;
+        &:hover{
+            color:#999 !important;
+            box-shadow: 4px 4px 5px #777676;            
+        }
+    }
 }

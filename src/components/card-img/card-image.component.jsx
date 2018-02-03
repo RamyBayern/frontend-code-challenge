@@ -7,7 +7,7 @@ class CardImage extends Component {
     render() {
         console.log(this.props)
         var settings = {
-            dots: true,
+            dots: false,
             infinite: false,
             speed: 500,
             slidesToShow: 1,

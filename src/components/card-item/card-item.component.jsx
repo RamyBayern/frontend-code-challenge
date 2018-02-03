@@ -5,9 +5,11 @@ import CardImage from '../card-img/card-image.component'
 class CardItem extends Component {
     render() {
         return (
-            <div className="col-md-4 col-sm-6 col-12 card-item">
-                <CardImage imageUrls= {this.props.propertyDetails.imageUrls}></CardImage>
-               <div className="all-card-deatils">
+            <div className="col-md-4 col-sm-6 col-12 full-card">
+                <a className="rent-btn">mieten</a>
+               <div className="card-item">
+               <CardImage imageUrls= {this.props.propertyDetails.imageUrls}></CardImage>
+               <div className="card-info">
                <CardDetails
                     title= {this.props.propertyDetails.title} 
                     advertisementPrice= {this.props.propertyDetails.advertisementPrice.baseRent} 
@@ -17,6 +19,7 @@ class CardItem extends Component {
                     numberOfRooms= {this.props.propertyDetails.realestateSummary.numberOfRooms}
                     space= {this.props.propertyDetails.realestateSummary.numberOfRooms}>
                 </CardDetails> 
+               </div>
                </div>
             </div>
         )
